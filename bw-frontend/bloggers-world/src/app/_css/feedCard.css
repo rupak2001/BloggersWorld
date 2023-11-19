@@ -1,0 +1,16 @@
+
+.feedcard-main{
+    width: 45rem;
+}
+
+@media screen and (max-width:800px) {
+    .feedcard-main{
+        width: 35rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .feedcard-main{
+        width: 100%;
+    }
+}

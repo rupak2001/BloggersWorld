@@ -1,0 +1,21 @@
+.profile-main {
+  padding: 1rem;
+  width: 90%;
+}
+
+.profile-pic {
+  width: 12rem;
+  height: 12rem;
+}
+
+@media screen and (max-width: 600px) {
+  .profile-main {
+    padding: 0.5rem;
+    width: 95%;
+  }
+
+  .profile-pic {
+    width: 8rem;
+    height: 8rem;
+  }
+}

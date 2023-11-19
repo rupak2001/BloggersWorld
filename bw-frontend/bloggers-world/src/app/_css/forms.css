@@ -1,0 +1,38 @@
+.auth-form-inner-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30rem;
+    min-height: 20rem;
+    background-color: rgba(7, 3, 7, 0.3);
+    backdrop-filter: blur(3px);
+}
+
+.signup-form-inner-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50rem;
+    min-height: 20rem;
+    background-color: rgba(7, 3, 7, 0.3);
+    backdrop-filter: blur(3px);
+}
+
+#floatingTextarea{
+    width: 20rem;
+    height: 6rem;
+}
+
+@media screen and (max-width:600px) {
+    .auth-form-inner-div{
+        width: 90%;
+    }
+    .signup-form-inner-div{
+        width: 90%;
+    }
+    #floatingTextarea{
+        width: 18rem;
+    }
+}

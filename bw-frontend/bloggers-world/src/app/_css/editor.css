@@ -1,0 +1,120 @@
+.editor-toolbar-main {
+  width: 10rem;
+  min-height: 50vh;
+  margin: 1rem;
+  margin-top: 1rem;
+  justify-content: start;
+}
+
+.editor-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.editor-inner {
+  width: 80%;
+}
+
+.editor-inner-element {
+  width: 80%;
+  margin-left: 2rem;
+}
+
+.category-tag-toolbar {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  width: 80%;
+  justify-content: start;
+  align-items: unset;
+}
+
+.category-button {
+  margin-bottom: unset;
+}
+
+.tool-list {
+  display: unset;
+}
+
+.tool-dropdown {
+  display: none;
+}
+
+.publish-button {
+  margin-right: 8rem;
+}
+
+.form-control:focus {
+  border-color: white;
+  border-width: 2px;
+} 
+
+.profile-editor-main{
+  width: 45rem;
+}
+
+
+@media screen and (max-width: 800px) {
+  .category-tag-toolbar {
+    width: 100%;
+    margin-left: unset;
+    justify-content: center;
+  }
+  .editor-toolbar-main {
+    width: 100%;
+    min-height: unset;
+    margin: unset;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+
+  .editor-main {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .editor-inner {
+    width: 92%;
+  }
+
+  .editor-inner-element {
+    width: 100%;
+    margin-left: unset;
+  }
+
+  .tool-list {
+    display: none;
+  }
+
+  .tool-dropdown {
+    display: unset;
+  }
+
+  .publish-button {
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+  }
+  .profile-editor-main{
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .category-tag-toolbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category-button {
+    margin-bottom: 5px;
+  }
+
+  .editor-inner {
+    width: 95%;
+  }
+}
