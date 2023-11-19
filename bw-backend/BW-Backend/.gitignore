@@ -4,7 +4,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-!env.properties
+bw-backend/BW-Backend/env.properties
 
 ### STS ###
 .apt_generated
